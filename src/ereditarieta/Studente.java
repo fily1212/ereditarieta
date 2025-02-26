@@ -13,4 +13,8 @@ public class Studente extends Persona{
     public String toString() {
         return super.toString()+" "+classe;
     }
+
+    public void studia(){
+        System.out.println("sto studiando");
+    }
 }

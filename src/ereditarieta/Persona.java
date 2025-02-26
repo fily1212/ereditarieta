@@ -27,8 +27,19 @@ public class Persona {
         this.cognome = cognome;
     }
 
+    public String getCodiceFiscale() {
+        return codiceFiscale;
+    }
+
+    public void setCodiceFiscale(String codiceFiscale) {
+        this.codiceFiscale = codiceFiscale;
+    }
+
     @Override
     public String toString() {
-        return nome + ' ' + cognome;
+        return nome + ' ' + cognome + " " + codiceFiscale;
     }
+
+
+
 }
