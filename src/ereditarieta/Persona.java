@@ -4,6 +4,8 @@ public class Persona {
     private String nome;
     private String cognome;
 
+    private String codiceFiscale;
+
     public Persona(String nome, String cognome) {
         this.nome = nome;
         this.cognome = cognome;
